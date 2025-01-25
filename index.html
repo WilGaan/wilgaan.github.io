@@ -9,6 +9,7 @@
     <script src="JS/main.js" defer></script>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="container">
             <div class="profile">
@@ -24,6 +25,16 @@
                     <li><a href="#anchorContact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="dropdown">
+                <button class="dropbtn">☰</button>
+                <div class="dropdown-content">
+                    <a href="#anchorHome">Home</a>
+                    <a href="#anchorAbout">About</a>
+                    <a href="#anchorSkills">Skills</a>
+                    <a href="#anchorProjects">Projects</a>
+                    <a href="#anchorContact">Contact</a>
+                </button>
+            </div>
         </div>
     </header>
     <main id="anchorHome">
@@ -166,7 +177,7 @@
                 <input type="email" name="email" placeholder="Email" required>
                 <textarea name="message" placeholder="Message" required></textarea>
                 <div class="btn-box">
-                    <button type="submit" class="btn">Send Message</button>
+                    <button type="submit" name="envoyer" class="btn">Send Message</button>
                 </div>
             </form>
         </div>
